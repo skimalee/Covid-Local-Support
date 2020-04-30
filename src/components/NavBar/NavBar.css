@@ -12,6 +12,19 @@
   box-shadow: none !important;
 }
 
+.ui.attached.stackable.menu {
+  background: #1D3557;
+  color: white;
+}
+
+.item {
+  color: white;
+}
+
+.ui.menu .item {
+  color: white;
+}
+
 .bigHeader {
   background-color: #38686a;
 }
@@ -112,8 +125,3 @@
   }
 }
 
-.ui.container.subNav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}

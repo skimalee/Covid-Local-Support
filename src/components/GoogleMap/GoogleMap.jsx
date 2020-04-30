@@ -1,6 +1,7 @@
 import React from "react";
 import { Form } from "semantic-ui-react";
 import { getGeocode } from "../../utils/geocodeService";
+import { Background } from './style'
 
 class GeocodeComponenet extends React.Component {
   constructor() {
@@ -19,7 +20,7 @@ class GeocodeComponenet extends React.Component {
 
   render() {
     return (
-      <div>
+      <Background>
         <Form
           onSubmit={() => {
             if (this.state.address) {
@@ -37,7 +38,7 @@ class GeocodeComponenet extends React.Component {
             onChange={this.handleSearchChange}
           />
         </Form>
-      </div>
+      </Background>
     );
   }
 }

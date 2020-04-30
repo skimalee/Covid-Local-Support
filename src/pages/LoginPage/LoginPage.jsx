@@ -11,6 +11,7 @@ import {
   Message,
 } from "semantic-ui-react";
 import "./LoginPage.css";
+import { Background } from './style'
 
 class LoginPage extends React.Component {
   constructor() {
@@ -24,12 +25,12 @@ class LoginPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <Background>
         <p className="signup">
           Not a member? &nbsp; <a>Sign up now</a> &nbsp;
         </p>
-
         <Container>
+        <img src="https://i.imgur.com/MiqWB6M.png" />
           <Header as="h2" icon textAlign="center">
             Welcome back!
           </Header>
@@ -65,7 +66,7 @@ class LoginPage extends React.Component {
             </Form>
           </Segment>
         </Container>
-      </div>
+      </Background>
     );
   }
 }

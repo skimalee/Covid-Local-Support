@@ -34,7 +34,7 @@ class ResNavBar extends React.Component {
             <div>
               <Image href="https://imgur.com/a/94NTL1H" size="tiny" />
             </div>
-            <p>For Restaurant Owners</p>
+            <h3>For Restaurant Owners</h3>
             <Link to="/account" className="item">
               Your Business
             </Link>
